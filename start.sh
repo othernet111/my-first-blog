@@ -17,4 +17,3 @@ exec ./myvenv/bin/gunicorn -w $NUM_WORKERS \
 #exec gunicorn newApp.wsgi:application -w $NUM_WORKERS \
   --user=$USER --group=$GROUP --log-level=debug \
   --log-file=$LOGFILE 2>>$LOGFILE
-# for test
