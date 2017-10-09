@@ -1,0 +1,638 @@
+supervisor: couldn't exec /var/www/django/test.sh: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/django/test.sh: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/django/test.sh: EACCES
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/django/test.sh: EACCES
+supervisor: child process was not spawned
+[06/Oct/2017 13:04:15] "GET / HTTP/1.1" 200 1716
+Not Found: /favicon.ico
+[06/Oct/2017 13:04:16] "GET /favicon.ico HTTP/1.1" 404 1966
+[06/Oct/2017 13:04:53] "GET / HTTP/1.1" 200 1716
+Not Found: /favicon.ico
+[06/Oct/2017 13:04:53] "GET /favicon.ico HTTP/1.1" 404 1966
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: No application module specified.
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: No application module specified.
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: No application module specified.
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: No application module specified.
+[09/Oct/2017 08:23:21] "GET / HTTP/1.1" 200 1716
+Not Found: /favicon.ico
+[09/Oct/2017 08:23:21] "GET /favicon.ico HTTP/1.1" 404 1966
+Invalid HTTP_HOST header: 'django-test.mcad.local:8000'. You may need to add 'django-test.mcad.local' to ALLOWED_HOSTS.
+[09/Oct/2017 08:23:35] "GET / HTTP/1.1" 400 58509
+Invalid HTTP_HOST header: 'django-test.mcad.local:8000'. You may need to add 'django-test.mcad.local' to ALLOWED_HOSTS.
+[09/Oct/2017 08:23:35] "GET /favicon.ico HTTP/1.1" 400 58600
+Invalid HTTP_HOST header: 'django-test.mcad.local:8000'. You may need to add 'django-test.mcad.local' to ALLOWED_HOSTS.
+[09/Oct/2017 08:23:37] "GET / HTTP/1.1" 400 58770
+Invalid HTTP_HOST header: 'django-test.mcad.local:8000'. You may need to add 'django-test.mcad.local' to ALLOWED_HOSTS.
+[09/Oct/2017 08:23:37] "GET /favicon.ico HTTP/1.1" 400 58861
+Invalid HTTP_HOST header: 'django-test.mcad.local:8000'. You may need to add 'django-test.mcad.local' to ALLOWED_HOSTS.
+[09/Oct/2017 08:23:38] "GET / HTTP/1.1" 400 58770
+Invalid HTTP_HOST header: 'django-test.mcad.local:8000'. You may need to add 'django-test.mcad.local' to ALLOWED_HOSTS.
+[09/Oct/2017 08:23:38] "GET /favicon.ico HTTP/1.1" 400 58861
+[09/Oct/2017 08:23:42] "GET / HTTP/1.1" 200 1716
+Not Found: /favicon.ico
+[09/Oct/2017 08:23:43] "GET /favicon.ico HTTP/1.1" 404 1966
+Invalid HTTP_HOST header: 'django-test.mcad.local:8000'. You may need to add 'django-test.mcad.local' to ALLOWED_HOSTS.
+[09/Oct/2017 08:23:50] "GET / HTTP/1.1" 400 58509
+Invalid HTTP_HOST header: 'django-test.mcad.local:8000'. You may need to add 'django-test.mcad.local' to ALLOWED_HOSTS.
+[09/Oct/2017 08:23:51] "GET /favicon.ico HTTP/1.1" 400 58600
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 09, 2017 - 08:23:20
+Django version 1.11.6, using settings 'mysite.settings'
+Starting development server at http://192.168.1.123:8000/
+Quit the server with CONTROL-C.
+[09/Oct/2017 08:57:51] "GET / HTTP/1.1" 200 1716
+Not Found: /favicon.ico
+[09/Oct/2017 08:57:52] "GET /favicon.ico HTTP/1.1" 404 1975
+[09/Oct/2017 08:57:56] "GET / HTTP/1.1" 200 1716
+Not Found: /favicon.ico
+[09/Oct/2017 08:57:57] "GET /favicon.ico HTTP/1.1" 404 1975
+[09/Oct/2017 08:57:57] "GET / HTTP/1.1" 200 1716
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 09, 2017 - 08:57:51
+Django version 1.11.6, using settings 'mysite.settings'
+Starting development server at http://192.168.1.123:8000/
+Quit the server with CONTROL-C.
+[09/Oct/2017 09:04:38] "GET / HTTP/1.1" 200 1716
+[09/Oct/2017 09:04:39] "GET / HTTP/1.1" 200 1716
+[09/Oct/2017 09:04:46] "GET /admin HTTP/1.1" 301 0
+[09/Oct/2017 09:04:46] "GET /admin/ HTTP/1.1" 302 0
+[09/Oct/2017 09:04:46] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1654
+[09/Oct/2017 09:04:46] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[09/Oct/2017 09:04:46] "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+[09/Oct/2017 09:04:46] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[09/Oct/2017 09:04:46] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[09/Oct/2017 09:04:47] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: attempt to write a readonly database
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/admin/sites.py", line 393, in login
+    return LoginView.as_view(**defaults)(request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/auth/views.py", line 90, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/generic/edit.py", line 183, in post
+    return self.form_valid(form)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/auth/views.py", line 119, in form_valid
+    auth_login(self.request, form.get_user())
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/auth/__init__.py", line 139, in login
+    request.session.cycle_key()
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/sessions/backends/base.py", line 311, in cycle_key
+    self.create()
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/sessions/backends/db.py", line 54, in create
+    self.save(must_create=True)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/sessions/backends/db.py", line 87, in save
+    obj.save(force_insert=must_create, force_update=not must_create, using=using)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: attempt to write a readonly database
+[09/Oct/2017 09:06:50] "POST /admin/login/?next=/admin/ HTTP/1.1" 500 225329
+[09/Oct/2017 09:06:55] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1654
+[09/Oct/2017 09:06:57] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1654
+[09/Oct/2017 09:06:57] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[09/Oct/2017 09:06:57] "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+[09/Oct/2017 09:06:57] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[09/Oct/2017 09:06:57] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[09/Oct/2017 09:06:57] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+Not Found: /favicon.ico
+[09/Oct/2017 09:06:57] "GET /favicon.ico HTTP/1.1" 404 1975
+[09/Oct/2017 09:07:00] "GET /admin/ HTTP/1.1" 302 0
+[09/Oct/2017 09:07:00] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1654
+[09/Oct/2017 09:07:01] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1654
+[09/Oct/2017 09:07:01] "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+[09/Oct/2017 09:07:01] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[09/Oct/2017 09:07:01] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[09/Oct/2017 09:07:01] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[09/Oct/2017 09:07:01] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+Not Found: /favicon.ico
+[09/Oct/2017 09:07:01] "GET /favicon.ico HTTP/1.1" 404 1975
+Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: attempt to write a readonly database
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/admin/sites.py", line 393, in login
+    return LoginView.as_view(**defaults)(request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/auth/views.py", line 90, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/generic/edit.py", line 183, in post
+    return self.form_valid(form)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/auth/views.py", line 119, in form_valid
+    auth_login(self.request, form.get_user())
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/auth/__init__.py", line 139, in login
+    request.session.cycle_key()
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/sessions/backends/base.py", line 311, in cycle_key
+    self.create()
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/sessions/backends/db.py", line 54, in create
+    self.save(must_create=True)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/sessions/backends/db.py", line 87, in save
+    obj.save(force_insert=must_create, force_update=not must_create, using=using)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: attempt to write a readonly database
+[09/Oct/2017 09:07:04] "POST /admin/login/?next=/admin/ HTTP/1.1" 500 225329
+[09/Oct/2017 09:07:49] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1654
+Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: attempt to write a readonly database
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/admin/sites.py", line 393, in login
+    return LoginView.as_view(**defaults)(request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/auth/views.py", line 90, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/generic/edit.py", line 183, in post
+    return self.form_valid(form)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/auth/views.py", line 119, in form_valid
+    auth_login(self.request, form.get_user())
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/auth/__init__.py", line 139, in login
+    request.session.cycle_key()
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/sessions/backends/base.py", line 311, in cycle_key
+    self.create()
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/sessions/backends/db.py", line 54, in create
+    self.save(must_create=True)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/sessions/backends/db.py", line 87, in save
+    obj.save(force_insert=must_create, force_update=not must_create, using=using)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: attempt to write a readonly database
+[09/Oct/2017 09:07:54] "POST /admin/login/?next=/admin/ HTTP/1.1" 500 225331
+[09/Oct/2017 09:07:56] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1654
+[09/Oct/2017 09:08:26] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1654
+[09/Oct/2017 09:08:26] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[09/Oct/2017 09:08:26] "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+[09/Oct/2017 09:08:26] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[09/Oct/2017 09:08:26] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[09/Oct/2017 09:08:26] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+Not Found: /favicon.ico
+[09/Oct/2017 09:08:26] "GET /favicon.ico HTTP/1.1" 404 1975
+Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: attempt to write a readonly database
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/admin/sites.py", line 393, in login
+    return LoginView.as_view(**defaults)(request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/auth/views.py", line 90, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/generic/edit.py", line 183, in post
+    return self.form_valid(form)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/auth/views.py", line 119, in form_valid
+    auth_login(self.request, form.get_user())
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/auth/__init__.py", line 139, in login
+    request.session.cycle_key()
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/sessions/backends/base.py", line 311, in cycle_key
+    self.create()
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/sessions/backends/db.py", line 54, in create
+    self.save(must_create=True)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/sessions/backends/db.py", line 87, in save
+    obj.save(force_insert=must_create, force_update=not must_create, using=using)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: attempt to write a readonly database
+[09/Oct/2017 09:08:29] "POST /admin/login/?next=/admin/ HTTP/1.1" 500 225327
+[09/Oct/2017 09:10:01] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1654
+[09/Oct/2017 09:10:03] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1654
+[09/Oct/2017 09:10:03] "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+[09/Oct/2017 09:10:03] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[09/Oct/2017 09:10:03] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[09/Oct/2017 09:10:03] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[09/Oct/2017 09:10:03] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+Not Found: /favicon.ico
+[09/Oct/2017 09:10:04] "GET /favicon.ico HTTP/1.1" 404 1975
+Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: attempt to write a readonly database
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/admin/sites.py", line 393, in login
+    return LoginView.as_view(**defaults)(request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/auth/views.py", line 90, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/generic/edit.py", line 183, in post
+    return self.form_valid(form)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/auth/views.py", line 119, in form_valid
+    auth_login(self.request, form.get_user())
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/auth/__init__.py", line 139, in login
+    request.session.cycle_key()
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/sessions/backends/base.py", line 311, in cycle_key
+    self.create()
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/sessions/backends/db.py", line 54, in create
+    self.save(must_create=True)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/sessions/backends/db.py", line 87, in save
+    obj.save(force_insert=must_create, force_update=not must_create, using=using)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: attempt to write a readonly database
+[09/Oct/2017 09:10:07] "POST /admin/login/?next=/admin/ HTTP/1.1" 500 225331
+Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: attempt to write a readonly database
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/admin/sites.py", line 393, in login
+    return LoginView.as_view(**defaults)(request)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/auth/views.py", line 90, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/views/generic/edit.py", line 183, in post
+    return self.form_valid(form)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/auth/views.py", line 119, in form_valid
+    auth_login(self.request, form.get_user())
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/auth/__init__.py", line 139, in login
+    request.session.cycle_key()
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/sessions/backends/base.py", line 311, in cycle_key
+    self.create()
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/sessions/backends/db.py", line 54, in create
+    self.save(must_create=True)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/contrib/sessions/backends/db.py", line 87, in save
+    obj.save(force_insert=must_create, force_update=not must_create, using=using)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/var/www/django/myvenv/lib/python3.4/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: attempt to write a readonly database
+[09/Oct/2017 09:10:32] "POST /admin/login/?next=/admin/ HTTP/1.1" 500 225457
+Not Found: /favicon.ico
+[09/Oct/2017 09:10:33] "GET /favicon.ico HTTP/1.1" 404 1975
+[09/Oct/2017 09:10:41] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1654
